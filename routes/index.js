@@ -35,7 +35,7 @@ router.get('/salestatistic', function(req, res, next) {
 });
 
 router.get('/statisticmanagement', function(req, res, next) {
-  res.render('statisticmanagement');
+  res.render('salestatistic');
 });
 
 router.get('/updateinfo', function(req, res, next) {
